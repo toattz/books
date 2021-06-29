@@ -1,0 +1,9 @@
+此ActionScript原始檔已經包含所有必要的PaperVision3D和FLARManager程式庫。原始檔需要使用Flash Builder/Flex編譯。
+
+相關說明請參閱筆者的部落格：
+
+http://swf.com.tw/?p=173
+
+Adobe Flash Builder產品介紹網頁：
+
+http://www.adobe.com/products/flash-builder.html

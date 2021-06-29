@@ -1,0 +1,9 @@
+本書採用serproxy程式
+下載網址:
+http://www.lspace.nildram.co.uk/freeware.html
+
+TinkerProxy的下載網址以及AS2.0和AS3.0的連線範例：
+https://code.google.com/p/tinkerit/wiki/TinkerProxy
+
+其他可用的序列埠連線軟體表列，請參閱：
+http://playground.arduino.cc/Interfacing/SerialNet

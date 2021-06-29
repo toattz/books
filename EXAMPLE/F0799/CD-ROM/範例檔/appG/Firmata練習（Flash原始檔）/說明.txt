@@ -1,0 +1,12 @@
+本單元的Flash AS3程式
+採用as3glue程式庫來處理Firmata訊息
+以包含在Flash原始檔的資料夾裡面
+
+as3glue程式庫的下載網址：
+
+https://code.google.com/p/as3glue/
+
+
+接接樂Firmata.fla檔，請搭配Arduino的"diy17_4_2.ino"檔。
+
+調光器.fla檔，請搭配Arduino的"diy17_4_3.ino"檔。

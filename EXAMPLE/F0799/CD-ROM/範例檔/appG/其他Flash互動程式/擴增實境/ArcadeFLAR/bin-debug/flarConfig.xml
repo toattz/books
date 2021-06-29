@@ -1,0 +1,36 @@
+<!-- this file specifies configurations for FLARManager. -->
+<!-- to use this file to initialize FLARManager, pass its path into FLARManager.initFromFile(). -->
+<!-- note that all relative paths listed here must be relative to the .swf location; absolute paths may also be used. -->
+
+<flar_config>
+	<!-- source settings -->
+	<!-- webcam 攝影解析度與顯示的解析度設置，詳閱transmote網站  -->
+	<flarSourceSettings
+		sourceWidth="320"
+		sourceHeight="240"
+		displayWidth="440"
+		displayHeight="330"
+		framerate="30"
+		downsampleRatio="1" />
+
+	<!-- miscellaneous FLARManager settings -->
+	<!--- FLARManager其中一個優點就是可以替3D物件設置平滑 -->
+	<flarManagerSettings
+		mirrorDisplay="true"
+		smoothing="3">
+		<smoother className="FLARMatrixSmoother_Average" />
+		<thresholdAdapter className="DrunkHistogramThresholdAdapter" speed="0.3" />
+	</flarManagerSettings>
+	
+	<!-- location of camera parameters file, e.g. FLARCameraParams.dat or camera_para.dat. -->
+	<!-- 此處要重新設置路徑 -->
+	<cameraParamsFile path="FLARCameraParams.dat" />
+	
+	<!-- list of file paths of patterns for FLARToolkit to detect. -->
+	<!-- @resolution specifies the resolution at which the patterns were generated. -->
+	<!-- 指定 pattern 的解析度與路徑，其餘使用預設值即可。 -->
+	<patterns resolution="8" patternToBorderRatio="50" minConfidence="0.5">
+		<pattern path="arcade_marker.pat" />
+	</patterns>
+	
+</flar_config>
